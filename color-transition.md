@@ -1,8 +1,8 @@
 ![](http://myjira.biz-apps.ru/wp-content/uploads/2016/09/Screenshot_3.png)
 
-1.Устанавливаем плагин [JsIncluder](https://marketplace.atlassian.com/plugins/ru.mail.jira.plugins.jsincluder/server/overview)
+Устанавливаем плагин [JsIncluder](https://marketplace.atlassian.com/plugins/ru.mail.jira.plugins.jsincluder/server/overview)
 
-2.Вставляем код в секции `General`
+Вставляем код в секции `General`
 
 ~~~~
 function my_hover(my_button, base_color, highlight_color) {
@@ -44,4 +44,4 @@ my_hover('#action_id_91', {
 ~~~~
 В `#action_id_31` 31 — это ID перехода, который вам нужно подсветить другим цветом. Его можно узнать например, в табличном режиме редактирования бизнес-процесса.
 
-3.В секции `Bindings` выбираем чекбокс `View`
+В секции `Bindings` выбираем чекбокс `View`
