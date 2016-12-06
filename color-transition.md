@@ -2,7 +2,8 @@
 
 1. Устанавливаем плагин [JsIncluder](https://marketplace.atlassian.com/plugins/ru.mail.jira.plugins.jsincluder/server/overview)
 
-2. Вставляем код в секции `General`:
+2. Вставляем код в секции `General`
+
 ~~~~
 function my_hover(my_button, base_color, highlight_color) {
     $(my_button).css($.extend(base_color, {
