@@ -5,7 +5,7 @@
 Вставляем код в секции `General`
 
 ~~~~
-function my_hover(my_button, base_color, highlight_color) {
+```function my_hover(my_button, base_color, highlight_color) {
     $(my_button).css($.extend(base_color, {
         'color': 'white',
         'text-shadow': '0 1px 0 black'
@@ -40,7 +40,7 @@ my_hover('#action_id_91', {
     'background': 'darkred'
 }, {
     'background': 'red'
-})
+})```
 ~~~~
 В `#action_id_31` 31 — это ID перехода, который вам нужно подсветить другим цветом. Его можно узнать например, в табличном режиме редактирования бизнес-процесса.
 
