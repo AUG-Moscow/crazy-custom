@@ -6,4 +6,4 @@
 2. Скачиваем файл `pf_request2description.py`, кладём в папку `atlassian/jira-data/jss/jython/sys/`
 3. Делаем «технический» переход из `Open` в `Open` (ограничив видимость) с постфункцией типа `Jython Post Function`
 4.В постфункции выбираем файл `pf_request2description.py`, 
-5. Средством автоматизации (Automation или встроенный в SD) делаем переход при условии JQL `description is EMPTY``
+5. Средством автоматизации (Automation или встроенный в SD) делаем переход при условии JQL `description is EMPTY`
