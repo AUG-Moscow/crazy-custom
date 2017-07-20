@@ -33,5 +33,5 @@ location /servicedesk/customer/ {
 
 Находится тут:
 
-https://your-jira.site/decorators/jirasd.js 
-/opt/atlassian/jira-install/atlassian-jira/decorators/jirasd.js
+- `https://your-jira.site/decorators/jirasd.js`
+- `/opt/atlassian/jira-install/atlassian-jira/decorators/jirasd.js`
