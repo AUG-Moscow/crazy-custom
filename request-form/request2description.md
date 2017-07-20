@@ -1,6 +1,6 @@
 После создания запроса из любой формы SD копируем все заполненные поля в стандартное текстовое поле «Описание», чтобы потом легко отправить стандартное письмо. Или легко вывести в таблицу (отчёт).
 
-##Установка
+## Установка
 
 1. Устанавливаем плагин Scripting Suite https://marketplace.atlassian.com/plugins/com.quisapps.jira.jss/server/overview 
 2. Скачиваем файл `pf_request2description.py`, кладём в папку `atlassian/jira-data/jss/jython/sys/`
